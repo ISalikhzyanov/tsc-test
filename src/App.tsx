@@ -123,6 +123,7 @@ function App() {
                 ref={imageRef}
                 className="image-picker"
                 type="file"
+                accept="image/*"
                 onChange={handleChange}
             />
             <div className="image-wrapper">
