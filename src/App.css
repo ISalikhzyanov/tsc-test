@@ -1,0 +1,127 @@
+.App{
+    width: 100vw;
+}
+button{
+    cursor: pointer;
+}
+
+.expand{
+    height: 50px;
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+}
+
+.slide{
+    background-color: #BFBFC2;
+    padding: 15px;
+    width: 100%;
+}
+
+.helpers{
+    display: flex;
+    padding: 20px 10px;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.helpers__btns{
+    height: 40px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.btns-group{
+    display: flex;
+    column-gap: 5px;
+}
+
+.helpers__btn{
+    background-color: #D3D3D3;
+    border: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 7px;
+    border-radius: 4px;
+}
+
+.helpers__fullscreen{
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+    color: gray;
+    font-size: 14px;
+}
+
+.image-picker{
+    opacity: 0;
+    position: absolute;
+    height: 0;
+    width: 0;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.selected-image-box{
+    cursor: pointer;
+    width: calc(33% - 15px);
+    max-width: 120px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px dashed black;
+    border-radius: 4px;
+    text-align: center;
+    position: relative;
+}
+
+.picked-image-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.loader-outer{
+    background: #D5E7FF;
+    border-radius: 2px;
+    width: 80%;
+    height: 4px;
+    position: absolute;
+    bottom: 10px;
+}
+
+.loader-inner{
+    background: #3F00FF;
+    border-radius: 2px;
+    height: 4px;
+}
+
+.helpers-fullscreen{
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+    background: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    padding: 20px 10px;
+    gap: 5px;
+    height: 100%;
+    width: 100vw;
+    align-items: flex-start;
+}
+
+.image-wrapper{
+    height: fit-content;
+    display: flex;
+    flex-flow: row wrap;
+    width: 100%;
+    gap: 10px;
+}

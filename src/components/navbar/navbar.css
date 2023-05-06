@@ -1,0 +1,50 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    border-bottom: 1px solid #BFBFC2;
+}
+
+h2{
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0;
+    color: #1D334A;
+}
+
+.navbar__btn-group{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 15px;
+}
+
+.navbar__btn{
+    border: none;
+    border-radius: 4px;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 8px 7px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.navbar__menu{
+    cursor: pointer;
+}
+
+.navbar__modal-content{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+
+.navbar__modal-btn{
+    color: #FFFFFF;
+    background: #000000;
+    border: none;
+    border-radius: 4px;
+    height: 40px;
+}
